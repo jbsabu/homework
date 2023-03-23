@@ -10,7 +10,7 @@ function animalSound(animal){
             sound = "woof"
             break
             case 'bird':
-                sound = "chirp"
+            sound = "chirp"
             break
             default:
 
@@ -29,10 +29,11 @@ function getFruitColor(fruit){
     }
 }
 
+
 console.log(getFruitColor('kiwi'))
 
 function getSum(a,b){
     return a+b
 }
 
-console.log(getSum(1,3.14))
+console.log(getSum(1,3.14))     
