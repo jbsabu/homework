@@ -11,7 +11,6 @@ let grades = {
   getGrade(num){
     let highestGrade = 0
     for (i = 55; (i < 100 && num >= i);i+=10){
-      let index = this.gradeIndex[i]
       if (i <= num&&i > highestGrade&&num >= highestGrade){
         highestGrade = i 
       } 
@@ -32,3 +31,6 @@ function getFirstIn(_array){
 }
 
 console.log(getFirstIn(array))
+
+
+// blocks here until file is read
