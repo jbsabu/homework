@@ -1,6 +1,6 @@
 let myCar = {brand: "Toyota", make: "Prius", color: "red"}
 
-let {brand,make,color} = myCar
+let {color} = myCar
 
 console.log(color)
 
